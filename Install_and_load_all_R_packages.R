@@ -52,3 +52,8 @@ if (!require("scales")) {
     install.packages("scales")
     library("scales")
 }
+
+if (!require("future")) {
+    install.packages("future")
+    library("future")
+}
