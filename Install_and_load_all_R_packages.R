@@ -32,3 +32,23 @@ if (!require("furrr")) {
     install.packages("furrr")
     library("furrr")
 }
+
+if (!require("ggplot2")) {
+    install.packages("ggplot2")
+    library("ggplot2")
+}
+
+if (!require("tidyr")) {
+    install.packages("tidyr")
+    library("tidyr")
+}
+
+if (!require("dplyr")) {
+    install.packages("dplyr")
+    library("dplyr")
+}
+
+if (!require("scales")) {
+    install.packages("scales")
+    library("scales")
+}
