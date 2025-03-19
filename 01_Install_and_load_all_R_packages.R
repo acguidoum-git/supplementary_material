@@ -57,3 +57,8 @@ if (!require("future")) {
     install.packages("future")
     library("future")
 }
+
+if (!require("cowplot")) {
+    install.packages("cowplot")
+    library("cowplot")
+}
